@@ -1,11 +1,15 @@
 {
   "name": "mui-component-library-mrpaulwoods",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "author": "Paul Woods <mr.paul.woods@gmail.com> (https://www.github.com/mrpaulwoods/)",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulwoods/npm-library.git"
+  },
   "scripts": {
-    "library": "vite",
+    "npm-library": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
