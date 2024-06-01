@@ -1,6 +1,6 @@
 import './App.css'
 import {createTheme, CssBaseline, ThemeProvider} from "@mui/material";
-import {Stat} from "./Stat.tsx";
+import {Stat} from "../lib/components/Stat/Stat.tsx";
 
 export const App = () => {
 
@@ -37,7 +37,7 @@ export const App = () => {
             <ThemeProvider theme={darkTheme}>
                 <CssBaseline/>
                 <h1>library</h1>
-                <Stat value="19,267" unit="Active users / month"/>
+                <Stat value="12,345" unit="Active users / day"/>
             </ThemeProvider>
         </>
     )

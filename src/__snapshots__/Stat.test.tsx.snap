@@ -1,0 +1,37 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Stat Component > renders correctly 1`] = `
+<div
+  className="css-15pprpf-MuiStat-root"
+>
+  x
+  <div
+    className="css-jzuw05-MuiStat-value"
+  >
+    123
+  </div>
+  <div
+    className="css-19z9boo-MuiStat-unit"
+  >
+    units
+  </div>
+</div>
+`;
+
+exports[`Stat component > renders correctly 1`] = `
+<div
+  className="css-15pprpf-MuiStat-root"
+>
+  x
+  <div
+    className="css-jzuw05-MuiStat-value"
+  >
+    123
+  </div>
+  <div
+    className="css-19z9boo-MuiStat-unit"
+  >
+    units
+  </div>
+</div>
+`;
