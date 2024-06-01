@@ -16,16 +16,17 @@ export default defineConfig({
         copyPublicDir: false,
         lib: {
             entry: resolve(__dirname, 'lib/main.ts'),
-            formats: ['es']
+            formats: ['es'],
+            fileName: "main.js"
         },
         rollupOptions: {
             external: [
                 'react',
                 'react-dom',
                 'react/jsx-runtime',
-                '@emotion/react',
-                '@emotion/styled',
-                '@mui/material'
+                // '@emotion/react',
+                // '@emotion/styled',
+                // '@mui/material'
             ],
             output: {
                 globals: {
