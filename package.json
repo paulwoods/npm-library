@@ -1,6 +1,6 @@
 {
   "name": "mui-component-library-mrpaulwoods",
-  "private": true,
+  "private": false,
   "version": "0.0.6",
   "type": "module",
   "main": "dist/main.js",
