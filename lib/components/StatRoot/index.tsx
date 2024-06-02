@@ -4,11 +4,7 @@ import {StatOwnerState} from "../../types.tsx";
 export const StatRoot = styled('div', {
     name: 'MuiStat',
     slot: 'root'
-})<{ ownerState: StatOwnerState }>(({theme, ownerState}) => {
-
-    console.log('StatRoot palette mode', theme.palette.mode)
-
-    return {
+})<{ ownerState: StatOwnerState }>(({theme, ownerState}) => ({
         display: "flex",
         flexDirection: "column",
         gap: theme.spacing(0.5),
@@ -22,5 +18,7 @@ export const StatRoot = styled('div', {
             border: `2px solid ${theme.palette.divider}`
         }
     }
-})
+))
+
+
 

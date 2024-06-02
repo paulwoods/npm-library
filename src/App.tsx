@@ -16,7 +16,6 @@ function App() {
                 <h1>library demo</h1>
                 <Stat value="12,345" unit="Active users / day"/>
             </ThemeProvider>
-
         </div>
     )
 }
