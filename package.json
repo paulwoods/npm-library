@@ -1,7 +1,7 @@
 {
   "name": "mui-component-library-mrpaulwoods",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Paul Woods <mr.paul.woods@gmail.com> (https://www.github.com/mrpaulwoods/)",
   "type": "module",
   "main": "dist/main.js",

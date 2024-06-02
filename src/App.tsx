@@ -36,7 +36,7 @@ export const App = () => {
         <>
             <ThemeProvider theme={darkTheme}>
                 <CssBaseline/>
-                <h1>library</h1>
+                <h1>library demo</h1>
                 <Stat value="12,345" unit="Active users / day"/>
             </ThemeProvider>
         </>
