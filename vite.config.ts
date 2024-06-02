@@ -21,7 +21,14 @@ export default defineConfig({
             formats: ['es']
         },
         rollupOptions: {
-            external: ['react', 'react/jsx-runtime'],
+            external: [
+                'react',
+                'react/jsx-runtime',
+                '@emotion/react',
+                '@emotion/styled',
+                '@mui/*',
+                'emotionStyled'
+            ],
             input: Object.fromEntries(
                 glob.sync('lib/**/*.{ts,tsx}', {
                     ignore: ["lib/**/*.d.ts"],
